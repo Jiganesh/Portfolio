@@ -1,0 +1,60 @@
+* {
+    margin: 5px;
+    padding: 0;    
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#portfolio {
+    
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+}
+
+#sub-heading {
+    justify-content: space-around;
+}
+
+
+[id^="work-experience"]{
+    flex-direction: column;
+}
+
+[id^="project"]{
+    flex-direction: column;
+}
+
+#project-details{
+    justify-content: flex-start;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+#education{
+    flex-direction: column;
+}
+
+#education-details{
+    justify-content: space-between;
+}
+
+#skills{
+    flex-direction: column;
+}
+
+#achievements{
+    flex-direction: column;
+}
